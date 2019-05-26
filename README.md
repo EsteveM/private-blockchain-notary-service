@@ -49,7 +49,7 @@ The procedure to obtain functional a copy of the project on your local machine s
 * Firstly, you have to download the project files from this repository onto your local machine.
 * Secondly, you have to install Node.js® and NPM, which can be done from the [Node.js® site](https://nodejs.org/en/).
 * Thirdly, you have to initialize the project by typing `npm init` on a terminal shell on your project main directory. Then, install bitcoinjs-lib, bitcoinjs-message, body-parser, crypto-js, express, hex2ascii and level by typing `npm install bitcoinjs-lib --save`, `npm install bitcoinjs-message --save`, `npm install body-parser --save`, `npm install crypto-js --save`, `npm install express --save`,  `npm install hex2ascii --save`, and `npm install level --save` respectively.
-* Once that has been done, you can test the project. One way to do this is by using [Postman](https://www.getpostman.com/), which tests endpoints. In addition, a wallet such as the [Electrum wallet](https://electrum.org/#home) can be used to work with wallet addresses, and sign messages using them.
+* Once that has been done, you can test the project by just typing `node app.js`. One way to do this is by using [Postman](https://www.getpostman.com/), which tests endpoints. In addition, a wallet such as the [Electrum wallet](https://electrum.org/#home) can be used to work with wallet addresses, and sign messages using them.
 
 ## Contributing
 

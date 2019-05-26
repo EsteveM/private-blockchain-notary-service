@@ -22,7 +22,7 @@ It stores validation and valid requests for 5 minutes, and deals with the time l
 
 ### Configuration of the endpoints provided by the REST API
 
-Five Web API endpoints have been configured:
+Six Web API endpoints have been configured:
 
 * POST to submit a validation request: the URL path used is *url: "/requestValidation"*. It receives a wallet address. The response is a request object in JSON format. A validation window of 5 minutes is established. If a validation request is resubmitted, the current one is returned with a decreased validation window.
 
